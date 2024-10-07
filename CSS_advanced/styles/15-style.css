@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+*::before {
+    box-sizing: border-box;
+}
+
+*::after {
+    box-sizing: border-box;
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
